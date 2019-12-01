@@ -4,7 +4,7 @@ A web app built with React and Flask which uses deep learning algorithms to inpa
 
 https://flask-react-image-inpainting.herokuapp.com/
 
-Note: Inpainting function is currently unavailable because Heroku's free tier server only has 500MB of memory, which is insufficient to run the machine learning model. Please clone this repo instead and install the required libraries (stated in requirements.txt) to run the model in your local browser.
+*Note: Inpainting function is currently unavailable because Heroku's free tier server only has 500MB of memory, which is insufficient to run the machine learning model. Please clone this repo instead and install the required libraries (stated in requirements.txt) to run the model in your local browser.*
 
 ## Project Description
 
