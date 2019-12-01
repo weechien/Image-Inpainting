@@ -27,6 +27,6 @@ Image Inpainting is built for users who wish to remove objects such as watermark
 
 - [EdgeConnect](https://github.com/knazeri/edge-connect)
 
-Example image:
+## Example image:
 
 ![alt text](https://github.com/weechien/Image-Inpainting/blob/master/example.jpg)
