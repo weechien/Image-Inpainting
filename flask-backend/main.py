@@ -5,8 +5,6 @@ import re
 import sys
 import flask
 import base64
-import numpy as np
-import tensorflow as tf
 from flask import *
 from PIL import Image
 from os.path import *

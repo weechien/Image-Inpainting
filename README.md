@@ -1,7 +1,32 @@
-# Image-Inpainting
+# Image-Inpainting 🎨
 
-A local web app to use deep learning algorithms to replace any portion of an image.
+A web app built with React and Flask which uses deep learning algorithms to inpaint any portion of an image:
 
-Example from Nvidia:
+https://flask-react-image-inpainting.herokuapp.com/
+
+## Project Description
+
+Image Inpainting is built for users who wish to remove objects such as watermarks and defects from an image. It has a simple interface whereby users could upload an image they wish to alter, and then mark the area they wish to remove with a brush object. The image can then be uploaded to the Heroku server for processing. Ideally, we would like to use a GPU-enabled server for a faster processing speed. However, as this is deployed on a free tier Heroku server, the processing is instead done by a CPU, albeit much slower. We hope that this project will inspire more people to explore the endless possibilities of artificial intelligence.
+
+## Features
+
+- Responsive layout for any devices.
+- Mark image area to inpaint.
+- Inpaint image from server side.
+- Download inpainted image.
+- Undo and redo brush strokes.
+- Change brush size.
+- Clear brush strokes or select a new image.
+
+## Built With
+
+- [Flask](https://palletsprojects.com/p/flask/) - Web framework used
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+
+## Acknowledgments
+
+- [EdgeConnect](https://github.com/knazeri/edge-connect)
+
+Example image:
 
 ![alt text](https://github.com/weechien/Image-Inpainting/blob/master/example.jpg)
